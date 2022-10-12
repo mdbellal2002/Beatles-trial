@@ -1,0 +1,786 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+section{
+    margin-bottom: 60px;
+}
+.title h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: -13px;
+}
+
+.title {
+    margin:  0 auto;
+}
+/*==================================================================
+                header part start
+====================================================================*/
+header{
+    background: #0872b9;
+    padding: 11px 0;
+}
+header .header_part_left{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    float: left;
+    color:#e7e7e7;
+    width: 50%;
+}
+.header_part_right{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.header_part_right a{
+    color: #e7e7e7;
+    margin-left:25px;
+    transition: .4s;
+}
+.header_part_right a:hover{
+    color: #353535;
+}
+/*==================================================================
+                header part end
+====================================================================*/
+
+/*==================================================================
+                Nav part start
+====================================================================*/
+.nav {
+    margin: 20px 0;
+}
+.nav .nav_logo{
+    width: 50%;
+    float: left;
+}
+.nav .nav_manu{
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+}
+.nav .nav_manu ol li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .4s;
+    color: #353535;
+}
+.nav .nav_manu ol li a:hover{
+    color:#0872b9;
+}
+.nav_manu ol li{
+    display: inline-block;
+    margin-left:20px;
+}
+/*==================================================================
+                Nav part end
+====================================================================*/
+
+/*==================================================================
+                banner part start
+====================================================================*/
+#banner{
+    background: url(../Images/banner.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 463px;
+    margin-bottom: 50px;
+}
+#banner .overlay{
+    position: absolute;
+    background: rgb(0, 0, 0, .6);
+    width: 100%;
+    padding: 85px 0;
+}
+#banner .overlay .container{
+    text-align: right;
+    color: #ffffff;
+}
+#banner .overlay .container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#banner .overlay .container h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#banner .overlay .container p {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 13px;
+    font-weight: 400;
+    width: 500px;
+    margin: 30px 0 50px auto;
+    line-height: 24px;
+}
+.overlay .container a:hover {
+    background: #0872b9;
+    border: 1px solid #0872b9;
+}.overlay .container a {
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    background: transparent;
+    border: 1px solid #e7e7e7;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    transition: .4s;
+}
+/*==================================================================
+                banner part end
+====================================================================*/
+
+/*==================================================================
+                about part start
+====================================================================*/
+#about_part .title{
+    width: 100px;
+}
+.about__img {
+    width: 40%;
+    position: relative;
+    float: left;
+}
+
+img.shap_3 {
+    width: 100%;
+    margin-left: 35px;
+}
+
+img.shap_2 {
+    width: 100%;
+    position: absolute;
+    margin-top: -392px;
+}
+
+.about__img_shap {
+    position: relative;
+}
+
+img.person_1 {
+    width: 56%;
+    margin-top: -325px;
+    margin-left: 33px;
+    position: absolute;
+}
+
+.about__text {
+    width: 54%;
+    float: left;
+    margin: 40px 0 40px 75px;
+}
+
+.about__text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #555;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.content_part {
+    margin-top: 40px;
+}
+/*==================================================================
+                about part end
+====================================================================*/
+
+/*==================================================================
+                service part start
+====================================================================*/
+#service_part .title{
+    width: 140px;
+}
+
+.service_graphic_design
+{
+    width: 30%;
+    background: #f1f1f1;
+    float: left;
+    margin-top: 100px;
+}
+.service_graphic_design:first-child{
+    margin-left: 0;
+}
+.service_part_shape{
+    width: 85px;
+    height: 85px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    position: relative;
+}
+.service_part_border_shape{
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .4s;
+}
+.border_shape_mini{
+    width: 70px;
+    height: 70px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .4s;
+}
+.border_shape_mini img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.service_part_border_shape:hover{
+    border: 2px solid #0872b9;
+    cursor: pointer;
+}
+.service_part_border_shape:hover .border_shape_mini{
+    background: #0872b9;
+}
+.service_graphic_design{
+    width: 32%;
+    background: #f1f1f1;
+    text-align: center;
+    margin-left: 25px;
+}
+.service_graphic_design h3{
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #353535;
+    margin-top: -38px;
+    margin-bottom: 20px;
+}
+.service_graphic_design p{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 500;
+    line-height: 30px;
+    color: #555;
+    width: 362px;
+    margin: 0 auto;
+    padding-bottom: 33px;
+}
+/*==================================================================
+                    service part end
+====================================================================*/
+
+/*==================================================================
+                    portfolio part start
+====================================================================*/
+#portfolio .title{
+    width: 140px;
+}
+.portfolio_img {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.portfolio_img img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio_item:nth-child(4){
+    margin-right: 0px;
+}
+.portfolio_item {
+    width: 23%;
+    margin-top: 40px;
+    float: left;
+    margin-right: 35px;
+}
+.portfolio_img .overlay {
+    width: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: .4s;
+}
+.portfolio_img .overlay i {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    top: 45%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.portfolio_img:hover .overlay i {
+    opacity: 1;
+    cursor: pointer;
+}
+.portfolio_img:hover .overlay{
+    height: 100%;
+}
+.portfolio_img .overlay i:hover{
+    background: #0872b9;
+    border-color: #0872b9;
+}
+
+/*==================================================================
+                    portfolio part end
+====================================================================*/
+
+/*==================================================================
+                    our team part end
+====================================================================*/
+#team .title{
+    width: 145px; 
+}
+#team .team_01{
+    width: 23%;
+    /* height: 500px; */
+    /* background: red; */
+    float: left;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+#team .team_01:nth-child(1){
+    margin-left: 0;
+}
+#team .team_01 .team_img{
+    width: 100%;
+    /* height: 270px; */
+    /* background: #0872b9; */
+    position: relative;
+}
+#team .team_01 .team_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: .4s;
+}
+
+#team .team_01 .team_text h2 {
+    font-family: oswald;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: .4s;
+    text-transform: uppercase;
+    color: #353535;
+}
+
+#team .team_01 .team_text h2:hover { 
+    color: #5bc5f4;
+}
+
+#team .team_01 .team_text {
+    text-align: center;
+}
+
+#team .team_01 .team_text p {
+    font-family: oswald;
+    font-size: 19px;
+    font-weight: 500;
+    color: #555;
+}
+.team_img .overlay{
+    width: 0;
+    height: 100%;
+    background: rgb(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 72px 0;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: .4s;
+}
+.team_img .overlay i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    transition: .4s;
+}
+.team_img:hover img{
+    box-shadow: 0px 0px 13px 2px rgb(163 156 156 / 75%);
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(163 156 156 / 75%);
+    -moz-box-shadow: 0px 0px 13px 2px rgba(163 156 156 / 75%);
+}
+.team_img .overlay i:hover {
+    background: #5bc5f3;
+    border-color: #5bc5f3;
+    cursor: pointer;
+}
+.team_img:hover .overlay {
+    width: 80px;
+    opacity: 1;
+}
+/*==================================================================
+                    our team part end
+====================================================================*/
+
+/*==================================================================
+                    testimonial part start
+====================================================================*/
+#testi .title{
+    width: 130px; 
+}
+#testi .testi_content{
+    width: 49%;
+    margin-left: 26px;
+    float: left;
+}
+#testi .testi_content:nth-child(1){
+    margin-left: 0px;
+}
+#testi .testi_img img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+#testi .testi_img {
+    position: relative;
+}
+.testi_content .testi_details .shadow {
+    height: 40px;
+    width: 40px;
+    background: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.testi_content .testi_details .shadow {
+    height: 60px;
+    width: 60px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    top: -29px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.testi_content .testi_details {
+    position: relative;
+    text-align: center;
+}
+
+.testi_content .testi_details {
+    background: #f1f1f1;
+    width: 100%;
+    height: 266px;
+    position: relative;
+    margin-top: 190px;
+}
+.testi_content .testi_details h2{
+    font-family: Oswald;
+    font-size: 22px;
+    font-weight: 400;
+    color:#353535;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.testi_content .testi_details i {
+    color: #5bc5f4;
+    margin: 10px 0;
+}
+
+.testi_content .testi_details h3 {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.testi_content .testi_details p {
+    font-family: Oswald;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555;
+    padding: 0 22px 25px 22px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/*==================================================================
+                    testimonial part end
+====================================================================*/
+
+/*==================================================================
+                    footer part start
+====================================================================*/
+footer{
+    background: #353535;
+    width: 100%;
+    height: 380px;
+}
+.footer_left {
+    width: 22%;
+    float: left;
+    padding: 20px 20px 17px 20px;
+}
+.footer_left img {
+    margin-bottom: 30px;
+}
+
+.footer_left p {
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    color: #f1f1f1;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.footer_contact {
+    width: 22%;
+    float: left;
+    padding-top: 33px;
+}
+.footer_contact h2 {
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.footer_contact .phone .icon i {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    background: #5bc5f3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer_contact .phone .icon {
+    float: left;
+    margin-right: 10px;
+}
+.footer_contact .phone .number{
+    float: left;
+}
+.footer_contact .phone .number p {
+    color: #f1f1f1;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_contact .phone {
+    margin-bottom: 20px;
+}
+.footer_contact .email {
+    margin-bottom: 22px;
+}
+
+.footer_contact .email .icon i {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background: #5bc5f3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer_contact .email .icon {
+    float: left;
+    margin-right: 15px;
+}
+
+.footer_contact .email .eamil_Address {
+    float: left;
+}
+
+.footer_contact .email_Address p {
+    font-family: Open sans;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
+.footer_contact .email .eamil_Address p {
+    color: #f1f1f1;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+.website .website_address {
+    float: left;
+}
+
+.footer_contact .website .icon i {
+    height: 40px;
+    width: 40px;
+    background: #5bc5f3;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.footer_contact .website .website_address p {
+    color: #f1f1f1;
+    font-family: Open sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer_contact .website .icon {
+    float: left;
+    margin-right: 15px;
+}
+.footer_link {
+    width: 19%;
+    float: left;
+    padding-top: 33px;
+}
+.footer_link h2 {
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.footer_link ul li a {
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: .4s;
+}
+
+.footer_link ul li a:hover{
+    color:#5bc5f4;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.footer_link ul li {
+    margin-bottom: 26px;
+    float: left;
+    width: 120px;
+}
+
+.footer_flickr {
+    width: 33%;
+    float: left;
+    padding-top: 33px;
+}
+.footer_flickr h2 {
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.footer_flickr .footer_img {
+    width: 33%;
+    float: left;
+}
+.footer_flickr .footer_img img {
+    width: 100%;
+    padding: 0 0 19px 20px;
+    box-sizing: border-box;
+}
+
+/*==================================================================
+                    footer part end
+====================================================================*/
+/*==================================================================
+                    footer bottom part start
+====================================================================*/
+
+.footer_bottom {
+    width: 100%;
+    background: #555555;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+    color: #f1f1f1;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 13px;
+}
+.footer_bottom h3 {
+    float: left;
+    margin: 0 0 0 35%;
+    padding: 10px 0;
+    color: #f1f1f1;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+.footer_bottom p {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 11px;
+    transition: .4s;
+    color: #f1f1f1;
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+.footer_bottom p:hover {
+    color: #5ab6df;
+}
+/*==================================================================
+                    footer bottom part end
+====================================================================*/
